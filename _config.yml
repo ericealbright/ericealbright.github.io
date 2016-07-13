@@ -20,3 +20,6 @@ instagram_username: ericealbright
 
 # Build settings
 markdown: kramdown
+
+# Exclude
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
