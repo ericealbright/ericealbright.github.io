@@ -9,17 +9,21 @@
 title: eric e albright
 email:
 description:
-copyright: "&copy; 2016 eric e albright"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ericealbright.github.io" # the base hostname & protocol for your site
+copyright: "&copy; eric e albright"
+
+baseurl:    "" # the subpath of your site, e.g. /blog
+url:        "http://ericealbright.github.io" # the base hostname & protocol for your site
+repository: "ericealbright/ericealbright.github.io"
 
 # External Usernames
 twitter_username:   ericealbright
 github_username:    ericealbright
 instagram_username: ericealbright
+strava_username:    147673
+linkedin_username:  ericealbright
 
 # Build settings
 markdown: kramdown
 
 # Exclude
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', '_ignore']
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile', '_ignore']
