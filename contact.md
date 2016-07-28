@@ -4,8 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
-You can send me an email at ericealbright@gmail.com
+The best way to reach me is to send 
+an email to _ericealbright@gmail.com_
 
-And here are some places you can find me:
+And here are some other places you can find me:
 
 {% include socialMediaList.html %}
