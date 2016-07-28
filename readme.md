@@ -7,19 +7,21 @@ Here's my first try at building a website through GitHub pages using Jekyll. Bel
 Using the site
 --------
 To test locally @ http://localhost:4000
+
 	~$bundle exec jekyll serve
 
 To deploy to http://ericealbright.github.io
+
 	~$git add --all
 	~$git commit -m "Initial commit"
 	~$git push -u origin master
 
-Custom Domains
+Custom Domain
 --------
 To setup the DNS info to use a custom domain I followed the tutorial here:
 http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
 
-Some problems I ran into:
+Some problems I ran into
 --------
 I was getting a kramdown dependency error during a 'jekyll build -trace' that looked something like
 
@@ -37,7 +39,7 @@ I had kramdown installed (verified through 'gem list'). I looked through several
 
 I was also having problems with regeneration of the site after making changes while the jekyll server was running. I was getting this error:
 
-GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+	GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
 
 	Error: SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed
 
