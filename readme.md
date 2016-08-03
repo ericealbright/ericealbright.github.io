@@ -10,6 +10,10 @@ To test locally @ http://localhost:4000
 
 	~$bundle exec jekyll serve
 
+Draft pages are marked with 'draft: true' and drafts are stored in the _drafts folder. To view these during dev use the '--drafts' switch, e.g.:
+
+	~$bundle exec jekyll serve --drafts
+
 To deploy to http://ericealbright.github.io
 
 	~$git add --all
@@ -20,6 +24,16 @@ Custom Domain
 --------
 To setup the DNS info to use a custom domain I followed the tutorial here:
 http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
+
+Custom CSS with SASS
+--------
+So Jekyll supports SASS but ships with a paired down set of CSS for mark up. I wanted to use Bootstrap, so I followed the tutorial below to get Bootstrap and Font-Awesome set up.
+
+https://dalanzg.github.io/jekyll/2016/03/25/how-to-use-sass-with-jekyll/
+
+_NB_: One gotcha here is that jquery is not included with Bootstrap. So that needs to be added separately. I added the following to my '<head>':
+
+
 
 Some problems I ran into
 --------

@@ -7,11 +7,12 @@
 
 # Site settings
 title: eric e albright
-email:
+email: 
 description:
 copyright: "&copy; eric e albright"
 
 baseurl:    "" # the subpath of your site, e.g. /blog
+asseturl:    "" # the subpath of your site, e.g. /blog
 url:        "http://ericealbright.github.io" # the base hostname & protocol for your site
 repository: "ericealbright/ericealbright.github.io"
 
@@ -24,6 +25,8 @@ linkedin_username:  ericealbright
 
 # Build settings
 markdown: kramdown
+#sass:
+#  style: compressed
 
 # Exclude
 exclude: ['readme.md', 'Gemfile.lock', 'Gemfile', '_ignore']

@@ -1,0 +1,15 @@
+<!-- Portfolio Grid Section
+<div class="row">
+	<div class="col-md-12">Here are some examples of recent projects I have worked on.</div>
+</div> -->
+
+<div class="row">
+	{% for post in site.posts %}
+		<div class="col-md-4">
+			<a href="#">
+				<img src="../assets/img/banana.jpg" class="img-responsive" alt="Eric">
+				<h4 class="text-center">{{ post.title }}</h4>
+			</a>
+		</div>
+	{% endfor %}
+</div>

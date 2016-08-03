@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects/
-exclude_from_nav: true
+exclude_from_nav: false
 draft: true
 ---
 
-Projects coming soon...
+{% include portfolio.html %}
